@@ -35,7 +35,7 @@ jsproxy_config({
     // 该节点用于加载大体积的静态资源
     'cfworker': {
       label: '',
-      hidden: true,
+      hidden: false,
       lines: {
         // 收费版（高权重）
         'node-cfworker-2.etherdream.com': 4,
